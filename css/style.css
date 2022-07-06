@@ -75,6 +75,10 @@
   border: #2291a0b9 1px solid;
   border-radius: 100%; }
 
+iframe {
+  margin-left: 5rem;
+  position: relative; }
+
 .tituloNosotros {
   color: #366fb1;
   margin-top: 1rem;

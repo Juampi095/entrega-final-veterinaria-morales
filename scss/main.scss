@@ -1,6 +1,7 @@
 /***********NAV *********/
 .navbar {
     background-color: #366fb1;
+    
 }
 
 .nav-link {
@@ -24,6 +25,7 @@
 
 .navbar-brand {
     color: white;
+   
 }
 
 .navbar-brand:hover {
@@ -94,7 +96,14 @@
     border: #2291a0b9 1px solid;
     border-radius: 100%;
 }
-
+/
+/****MAPS******//
+iframe{
+    margin-left: 350px;
+    position: relative;
+    bottom: 35rem;
+   
+}
 
 
 
