@@ -1,0 +1,12 @@
+El primer cambio que hice fue en la seccion nosotros, lo hice desde cero en scss.
+Agregué una página de scss para trabajar de manera más ordenada en cada sección,en NOSOTROS hice un extend,dentro de la carpeta variables para el título, el cual tiene color, margen y tamaño de fuente.
+Además agregué otro extend para el párrafo, el cual tiene ancho máximo, tamaño de fuente, letra negrita borde, y border-radius.
+Otro cambio que hice fue agregar una nueva hoja dentro de la carpeta variables con el nombre MIXINS, ahí creé el botón ver más y dentro de la hoja mixins puse los parámetros colorFondo y colorLetra, además agregué padding, color de fondo y color, éstas últimas dos con los parámetros establecidos.
+Después respecto a SEO, agregué keywords en INICIO "veterinaria, estudios, atención, domicilio,top level" y en NOSOTROS "nosotros, veterinarios,clinica,quienes somos"
+Y por último agregué una descripción para cada página:
+INICIO:"Somos una clínica veterinaria multidisciplinaria que ofrece diferentes especialidades, conformado por un staff de 15 médicos veterinarios"
+
+NOSOTROS:"Desde 2004, estamos al servicio de tus mascotas, contamos con la mejor tecnología de última generación"
+Agregué las paginas restantes (contacto, especialidades, examenes complementarios,servicios generales) y les añadí el contenido y las edité en sass, además las vinculé con import en el main de sass.
+También agregué agregué las carpetas con fotos para añadirlas en la página.
+Y por último agregué SEO y la descripción en cada una de las páginas añadidas.
