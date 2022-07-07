@@ -1,7 +1,7 @@
 /***********NAV *********/
 .navbar {
     background-color: #366fb1;
-    
+
 }
 
 .nav-link {
@@ -13,19 +13,21 @@
 .nav-link:hover {
     color: bisque;
 }
-.nav-link.active{
+
+.nav-link.active {
     color: white !important;
     border: #c9d886 solid 2px;
     border-radius: 130px;
 }
-.nav-link.active:hover{
+
+.nav-link.active:hover {
     color: bisque;
 
 }
 
 .navbar-brand {
     color: white;
-   
+
 }
 
 .navbar-brand:hover {
@@ -45,7 +47,8 @@
     transition: .3s;
 
 }
-.form-control{
+
+.form-control {
     margin: 0.5rem;
     width: 40%;
 }
@@ -55,6 +58,7 @@
     transform: scale(1.02);
     transition: .3s;
 }
+
 /*******CONTENIDO********/
 .tituloUno {
     text-align: center;
@@ -67,8 +71,9 @@
     font-size: 25px;
     color: #366fb1;
 }
+
 //****IMAGENES****//
-.imagenes{
+.imagenes {
     @extend %imagenes;
 }
 
@@ -77,6 +82,7 @@
     width: 25%;
     margin: 0 auto;
 }
+
 //******FOOTER******//
 .footer {
     font-size: 2rem;
@@ -96,15 +102,8 @@
     border: #2291a0b9 1px solid;
     border-radius: 100%;
 }
-/
-/****MAPS******//
-iframe{
-    margin-left: 350px;
-    position: relative;
-    bottom: 35rem;
-   
-}
 
+/ //****MAPS******//
 
 
 
@@ -118,5 +117,3 @@ iframe{
 @import'./secciones/servicios-generales';
 @import'./secciones/especialidades';
 @import'./secciones/examenes-complementarios';
-
- 
