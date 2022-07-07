@@ -103,8 +103,12 @@
     border-radius: 100%;
 }
 
-/ //****MAPS******//
-
+//****MAPS******//
+iframe {
+    margin-left: 5rem;
+    position: relative;
+    transform: translate(800px, -300px);
+}
 
 
 //****VARIABLES****//
